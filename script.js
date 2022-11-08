@@ -1,7 +1,13 @@
 let nome = prompt("Inserisci il nome");
 let cognome = prompt("Inserisci il cognome");
 let colore = prompt("Inserisci il tuo colore preferito");
-let numero = 21
+let numero1 = prompt("inserisci un numero!");
+let numero2 = prompt("inserisci un'alro numero!");
 
-console.log(nome+cognome+colore+numero);
+numero1 = parseInt(numero1);
+numero2 = parseInt(numero2);
+
+let somma = numero1 / numero2;
+
+console.log(nome+cognome+colore+somma);
 

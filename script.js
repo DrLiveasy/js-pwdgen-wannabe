@@ -11,3 +11,5 @@ let somma = numero1 / numero2;
 
 console.log(nome+cognome+colore+somma);
 
+document.getElementById("password").innerHTML = nome+cognome+colore+somma;
+
